@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    height: 700px;
+}
+
+/* px is static sizing while em or % is dynamic so when you apply both 
+ in the body as well as in the h1 it will take both the sizings into consideration .
+  But when you use rem it means relative em so it will ignore the previous sizings and will take the given one only.. */
+h1 {
+    font-size: 59px;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+
+}
+h2{
+    font-size: 30px;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #11999E;
+}
+.top-container {
+    background-color: #E4f9F5;
+}
+
+.sub-container {
+    display: inline-block;
+    padding-top: 100px;
+    position: relative;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.mid {
+    margin: 50px 0;
+}
+
+.bottom {
+    background-color: #66BFBF;
+    line-height: 3;
+    padding: 50px 0 20px;
+    /* padding: 10px;
+    top: 15px; */
+    height: 15%;
+}
+
+.copyright{
+    color:#EAF6F6;
+    font-weight: bold;
+}
+.top-cloud {
+    position: absolute;
+    right: -5%;
+    top: 5%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: -100px;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    margin: 50px auto 50px auto ;
+    border: dotted #ced3d3 11px;
+    border-bottom: none;
+    width: 10%;
+}
+
+a{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #EAF6F6;
+} 
+a:visited{
+
+}
+
+.skill-row{
+    width: 50%;
+    /* display: inline-block; */
+    margin: 40px auto 100px auto;
+    text-align: left;
+}
+.skill-1-img{
+    float: left;
+    margin-right: 30px;
+}
+.skill-2-img{
+    float: right;
+    margin-left: 25px;
+}
+.skill-sticker{
+    width: 25%;
+    margin: -80px;
+    margin-left: 300px;
+}
+
+/* .code-skill-description{
+    clear: left;
+}
+.code-skill-description2{
+    clear: right;
+}  you can use the clear function in order to remove the float that you have applied above .*/
+.btn {
+    background: #3fd3d8;
+    background-image: -webkit-linear-gradient(top, #5eace0, #2980b9);
+    background-image: -moz-linear-gradient(top, #5eace0, #2980b9);
+    background-image: -ms-linear-gradient(top, #5eace0, #2980b9);
+    background-image: -o-linear-gradient(top, #5eace0, #2980b9);
+    background-image: linear-gradient(to bottom, #5eace0, #2980b9);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: normal;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .intro{
+    width: 33%;
+    margin: auto;
+  }
+
+  
